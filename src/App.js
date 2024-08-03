@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { useParallax } from 'react-scroll-parallax';
 import './App.css';
 import QuizPage from './pages/quizpage'; // Import the QuizPage component
@@ -71,7 +71,7 @@ function Home() {
 
 function App() {
   return (
-    <Router basename="/SocialMechanisms">
+    <Router>
       <div className="App">
         <header className="App-header">
           <nav>
