@@ -3,16 +3,34 @@ import React from 'react';
 const About = () => {
   return (
     <div className="about-container">
-      <h1>About This Project</h1>
+      <h1>About This Project: The 4 Social Mechanisms</h1>
       <p>
         This project addresses the importance of knowledge and recognition, focusing on Canadian history, specifically the themes of Resistance and Recognition. It is crucial to be well-informed about our history to form and express educated opinions.
       </p>
-      <p>
-        The website is designed to be an interactive learning tool, allowing users to explore various topics related to Canadian history. By creating an engaging platform with quizzes and informative popups, the aim is to make learning more appealing and effective, particularly for students and young adults.
-      </p>
-      <p>
-        The project emphasizes the need to understand our own history and land before exploring broader topics. By narrowing the scope to Canadian recognition and resistance, the project ensures a deep and focused exploration of these critical themes.
-      </p>
+      <p>The purpose of this project is to create an interactive learning tool that delves into these social mechanisms through the lens of Canadian history. By focusing on Resistance and Recognition, we aim to make learning engaging and accessible for students and young adults, promoting a deeper understanding of these critical concepts.</p>
+     
+      <div className="mechanism">
+        <h3>Resistance</h3>
+        <p>Resistance involves challenging and opposing elements within the education system that do not promote human success. This can include promoting open discussions, questioning detrimental practices, and advocating for positive change. Historical and contemporary examples of resistance highlight its significance in shaping educational policies and practices.</p>
+      </div>
+
+      <div className="mechanism">
+        <h3>Recognition</h3>
+        <p>Recognition in political theory involves acknowledging and valuing the diverse practices and identities of individuals. In education, this can be seen through land acknowledgements, multicultural events, and the inclusion of diverse languages and cultures. Recognizing differences positively fosters an inclusive and supportive environment for all students.</p>
+      </div>
+
+      <div className="mechanism">
+        <h3>Authority</h3>
+        <p>Authority in education refers to the power dynamics between teachers and students. It can be seen in the enforcement of rules, control of student behavior, and grading. Distinguishing between authoritativeness (credibility and expertise) and authoritarianism (control and obedience) is crucial for understanding the impact of authority in educational settings.</p>
+      </div>
+
+      <div className="mechanism">
+
+        <h3>Reproduction</h3>
+        <p>Reproduction suggests that schools tend to reproduce what is happening in society at large. Examples include language development among youth, age-based differentiation, workforce preparation, gender norms, and societal stereotypes. Understanding this mechanism helps us see how education systems mirror societal structures and values.</p>
+      </div>
+
+
     </div>
   );
 };

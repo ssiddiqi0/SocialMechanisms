@@ -86,6 +86,15 @@ const LearnMore = () => {
         </div>
     </div>
     <div className="collapsible">
+        <button className="collapsible-btn" onClick={() => handleToggle(9)}>
+          Study Scams from Punjab to Canada
+        </button>
+        <div className={`collapsible-content ${openIndex === 9 ? 'open' : ''}`}>
+          <p>Many students from Punjab were lured to Canada with promises of easy admissions and visas. However, upon arrival, they faced high tuition fees and were often forced into menial jobs, leading to exploitation and significant financial difficulties. This situation has led to widespread concern about fraudulent practices and the need for better regulation and support for international students.</p>
+          <a href="https://studyinternational.com/news/punjab-to-canada-study-scams/" target="_blank" rel="noopener noreferrer">Read More</a>
+        </div>
+      </div>
+    <div className="collapsible">
   <button className="collapsible-btn" onClick={() => handleToggle(8)}>
     Residential School History
   </button>

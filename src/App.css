@@ -300,6 +300,8 @@ img {
   font-size: 1em;
 }
 
+
+/* About CSS */
 .about-container {
   max-width: 800px;
   margin: 0 auto;
@@ -314,7 +316,16 @@ img {
   color: #ffffff;
   margin-bottom: 20px;
 }
-
+.about-container h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.about-container h3 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
 .about-container p {
   margin-bottom: 15px;
 }

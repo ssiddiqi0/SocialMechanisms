@@ -11,5 +11,5 @@ const QuizPage = () => {
   );
 };
 // article 1: https://www.thecanadianencyclopedia.ca/en/article/calder-case
-
+// https://www.komagatamaruweek.com/
 export default QuizPage;

@@ -91,7 +91,7 @@ export const quiz = {
         "correctAnswer": "4",
         "messageForCorrectAnswer": "Correct!",
         "messageForIncorrectAnswer": "Incorrect. Please try again!",
-        "explanation": "The 94 Calls to Action issued by the Truth and Reconciliation Commission are recommendations aimed at addressing the legacy of residential schools and promoting reconciliation. They focus on various aspects including justice, education, and the integration of Indigenous perspectives into Canadian society.",
+        "explanation": "The 94 Calls to Action issued by the Truth and Reconciliation Commission of Canada are a set of recommendations aimed at addressing the legacy of residential schools and fostering reconciliation. Their primary purpose is to guide governments, institutions, and organizations in acknowledging the historical injustices faced by Indigenous peoples, promoting justice and healing for survivors, strengthening Indigenous rights, and integrating Indigenous perspectives into public education. By implementing these actions, the TRC seeks to build a more equitable and respectful relationship between Indigenous and non-Indigenous Canadians.",
         "point": "1"
     },    
     {
@@ -111,6 +111,23 @@ export const quiz = {
         "explanation": "The Truth and Reconciliation Commission’s findings have significantly influenced public and institutional attitudes by increasing awareness of the residential school system's impact and prompting efforts towards reconciliation. This includes official apologies, support programs for survivors, and integration of Indigenous perspectives into public education.",
         "point": "1"
     },
+    {
+        "question": "In recent years, thousands of students from Punjab have been lured to Canada with what may now be considered \"false promises\". What were the consequences they faced upon arrival?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "They were promised easy admissions and visas, but faced high tuition fees and menial jobs upon arrival, leading to significant academic pressure and social isolation.",
+          "They were offered full scholarships and free housing, leading to a comfortable transition and successful careers.",
+          "They were guaranteed high-paying jobs and citizenship, resulting in immediate financial stability and integration.",
+          "They were given accurate information about costs and challenges, which helped them plan their studies effectively."
+        ],
+        "questionPic": "https://i.cbc.ca/1.6869256.1686184051!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_780/protest-against-deportation.jpg",
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect. Please try again!",
+        "explanation": "Many stdents from Punjab were lured to Canada with promises of easy admissions and visas. However, upon arrival, they faced high tuition fees and were often forced into menial jobs, leading to exploitation and financial difficulties.",
+        "point": "1"
+      },      
     {
         "question": "What recent legal or policy changes have been implemented to recognize the rights and contributions of historically marginalized communities in Canada?",
         "questionType": "text",
