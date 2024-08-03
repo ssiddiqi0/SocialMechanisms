@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+.App {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-image: url('./images/vector-illustration-black-male-female-260nw-1049318984.webp'); */
+  background-color: black;
+  min-height: 20vh;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  height: 1000px; /* Just for demonstration to enable scrolling */
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav li {
+  list-style-type: none;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+img {
+  object-fit: cover;
+}
+.bg-container {
+  position: relative;
+}
+.absolute-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'DM Serif Display', serif;
+  transform: translate(-50%, -50%);
+}
+.absolute-text h1 {
+  font-size: 5rem;
+  font-family: 'DM Serif Display', serif;
+}
+.bg-container img {
+  width: 100%;
+  height: 90vh;
+}
+.card-container {
+  display: flex;
+  width: 80%;
+  font-family: 'DM Serif Display', serif;
+  margin: auto;
+}
+.card {
+  flex-basis: 50%;
+  margin: 10px;
+  line-height: 1.6;
+}
+.card img {
+  width: 100%;
+}
+.subscribe-section {
+  width: 80%;
+  display: block;
+  margin: auto;
+  text-align: center;
+
+  font-family: 'DM Serif Display', serif;
+  font-size: 5rem;
+  background-color: rgb(234, 70, 61);
+  padding: 20px;
+}
+
+.subscribe-section button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  font-size: 20px;
+  
+  font-weight: 600;
+  line-height: 28px;
+  padding: 12px 20px;
+  text-align: center;
+  transition-duration: .15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.subscribe-section button:hover {
+  color: #000;
+  background: rgb(253, 225, 219);
+}
+/* App.css */
+
+/* src/App.css */
+
+.quiz-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.quiz-page .quiz-container {
+  background-color: #060000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.quiz-page .question {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.quiz-page .answers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* src/pages/QuizPage.css */
+.quiz-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.custom-question {
+  margin-bottom: 20px;
+}
+
+.custom-question .question-image {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.custom-question .question-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.quiz-page .answers button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.quiz-page .answers button:hover {
+  background-color: #0056b3;
+}
+
+.quiz-page .answers button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.quiz-page .feedback {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #28a745;
+}
+
+.quiz-page .explanation {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.quiz-page .next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-page .next-button:hover {
+  background-color: #bce2c4;
+}
+
+
+
+/* LearnMore.css */
+.collapsible {
+  margin-bottom: 10px;
+}
+
+.collapsible-btn {
+  background-color: #a142dc;
+  color: white;
+  font-family: 'DM Serif Display', serif;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.collapsible-btn:hover {
+  background-color: #d58dff;
+}
+
+.collapsible-content {
+  display: none;
+  padding: 10px 20px;
+  background-color: #dbccf0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.collapsible-content.open {
+  display: block;
+  color: #000;
+}
+
+.collapsible-content a {
+  color: #9b61d2;
+  text-decoration: none;
+  
+}
+
+.collapsible-content a:hover {
+  text-decoration: underline;
+}
+
+.learn-more-links h2 {
+  font-size: 1.5em;
+}
+
+.learn-more-links p {
+  font-size: 1em;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'DM Serif Display', serif;
+  line-height: 1.6;
+  color: #e6afe2;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  margin-bottom: 15px;
+}
+
+.about-container a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
