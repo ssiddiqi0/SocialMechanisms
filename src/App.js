@@ -71,7 +71,7 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SocialMechanisms">
       <div className="App">
         <header className="App-header">
           <nav>
