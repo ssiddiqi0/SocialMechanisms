@@ -1,5 +1,5 @@
 # Education 240 Final Project
-Saba Siddiqi
+### Saba Siddiqi
 As my final project, I decided to create a website that quizzes those who would like to know more about recognition and resistance within Canada, two of the four social mechanisms.
 
 
