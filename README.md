@@ -2,34 +2,16 @@
 ### Saba Siddiqi
 As my final project, I decided to create a website that quizzes those who would like to know more about recognition and resistance within Canada, two of the four social mechanisms.
 
+## Project Overview
+This website aims to educate users on the concepts of recognition and resistance by presenting interactive quizzes. It serves as both an educational tool and a platform for increasing awareness about these social mechanisms and their impact on Canadian society.
 
-# Getting Started with Create React App
+## Features
+- **Interactive Quizzes:** Test your knowledge on **recognition** and **resistance** with multiple-choice questions.
+- **Informative Content:** Learn about key historical events and figures related to the concepts of **recognition** and **resistance** under the Learn More tab.
+- **Visuals and Resources:** Engaging images and links to further reading materials to deepen your understanding.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **How to Use**
+1. **Navigate to the Quizzes Section:** Choose a quiz to start learning about **recognition** and **resistance**.
+2. **Answer Questions:** Select the best answers based on your knowledge and the information provided.
+3. **Review Results:** After completing a quiz, review your answers and explanations to enhance your understanding.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

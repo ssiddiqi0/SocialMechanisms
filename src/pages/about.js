@@ -5,9 +5,11 @@ const About = () => {
     <div className="about-container">
       <h1>About This Project: The 4 Social Mechanisms</h1>
       <p>
-        This website was a project for my Education 240 class. It is meant to address the importance of knowledge and recognition, focusing on Canadian history, specifically the themes of Resistance and Recognition. Authority and Reproduction are outlined here for some extra context. By emphasizing Resistance and Recognition, I am to promote a deeper understanding of these concepts beginning with a focus on our country, Canada.
+      As a final project for my Education 240 class, I decided to create an informative site that addresses the importance of knowledge and recognition, focusing on Canadian history through the lens of four social mechanisms: Recognition, Authority, Resistance, and Reproduction. Understanding these social mechanisms is essential for forming and expressing educated opinions about historical and contemporary issues. 
       </p>
-      <p>The purpose of this project is to create an interactive learning tool that delves into these social mechanisms through the lens of Canadian history. By focusing on Resistance and Recognition, we aim to make learning engaging and accessible for students and young adults, promoting a deeper understanding of these critical concepts.</p>
+      <p>The purpose of this project is to create an interactive learning tool that explores these social mechanisms through the lens of Canadian history. By emphasizing Resistance and Recognition, I aim to make learning engaging and accessible for students and young adults, promoting a deeper understanding of these critical concepts.
+
+</p>
      
       <div className="mechanism">
         <h3>Resistance</h3>
