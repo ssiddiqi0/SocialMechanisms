@@ -48,7 +48,16 @@ const LearnMore = () => {
           <a href="https://www.theglobeandmail.com/canada/article-japanese-canadian-internment-legacy/" target="_blank" rel="noopener noreferrer">Read More</a>
         </div>
       </div> */}
-     
+     <div className="collapsible">
+  <button className="collapsible-btn" onClick={() => handleToggle(8)}>
+    Remembering Chinese Railway Workers
+  </button>
+  <div className={`collapsible-content ${openIndex === 8 ? 'open' : ''}`}>
+    <p>The Toronto Railway Museum also honors the significant contributions of Chinese railway workers who played a crucial role in the construction of Canada's transcontinental railway. These workers faced harsh conditions and discrimination, yet their efforts were essential to the development of Canada's national infrastructure. The museum's exhibits reflect their vital legacy and the historical impact they made.</p>
+    <a href="https://torontorailwaymuseum.com/?p=1152" target="_blank" rel="noopener noreferrer">Read More</a>
+  </div>
+</div>
+
       <div className="collapsible">
         <button className="collapsible-btn" onClick={() => handleToggle(2)}>
           The 94 Calls to Action

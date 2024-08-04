@@ -128,6 +128,23 @@ export const quiz = {
         "explanation": "Many stdents from Punjab were lured to Canada with promises of easy admissions and visas. However, upon arrival, they faced high tuition fees and were often forced into menial jobs, leading to exploitation and financial difficulties.",
         "point": "1"
       },      
+      {
+        "question": "During the construction of the Canadian Pacific Railway, Chinese workers faced numerous challenges. What were some of these challenges, and how has their contribution been officially recognized in Canada today?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Chinese workers faced harsh conditions and discrimination, but their contributions have not been officially recognized in Canada.",
+          "Chinese workers experienced relatively good working conditions and were well-compensated; their contributions were promptly recognized.",
+          "Chinese workers endured dangerous and unfair working conditions, and their contributions have been recognized through various memorials and public acknowledgments.",
+          "Chinese workers faced harsh conditions, and while their contributions were recognized, they received limited compensation for their work."
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Correct!",
+        "messageForIncorrectAnswer": "Incorrect. Please try again!",
+        "questionPic": "https://regionsofcan.weebly.com/uploads/7/0/4/9/70497629/chinese-cpr_orig.jpg",
+        "explanation": "Chinese railway workers faced numerous challenges, including dangerous working conditions, low wages, and racial discrimination. Despite these hardships, their significant contributions to the construction of the Canadian Pacific Railway were later recognized through various memorials, public acknowledgments, and historical retrospectives. Efforts such as the establishment of monuments and commemorative events have honored their legacy and contributions to Canadian history.",
+        "point": "1"
+      },      
     {
         "question": "What recent legal or policy changes have been implemented to recognize the rights and contributions of historically marginalized communities in Canada?",
         "questionType": "text",
